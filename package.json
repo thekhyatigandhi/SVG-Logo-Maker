@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "This is a SVG Log Maker. The Node.js command-line application will take in users input to generate a logo and save it as an SVG file. The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a .svg file.",
   "main": "index.js",
+
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Khyati Gandhi",
   "license": "MIT",
@@ -13,5 +14,8 @@
   },
   "devDependencies": {
     "jest": "^24.9.0"
-  }
+  },
+"scripts": {
+  "test": "jest"
+}
 }
