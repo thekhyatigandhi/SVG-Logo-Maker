@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const fileName = "./examples/logo.svg";
-const setShape = require("../lib/setShape.js");
-const colorKeywords = require("../lib/colorKeywords.js");
+const setShape = require("./lib/setShape.js");
+const colorKeywords = require("./lib/colorKeywords.js");
 
 // Questions
 const questions = [
