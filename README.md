@@ -16,7 +16,7 @@ This app is used to generate an SVG logo with a shape of your choice (circle, sq
 
 The following video shows the application's appearance and functionality:
 
-![portfolio demo](./main/Assets/WalkthroughVideo.gif)
+https://youtu.be/tQB-Y5-dAbE
 
 ## Technologies Used
 
