@@ -39,7 +39,7 @@ After installing Jest, Type "npm test" in the command line to run the tests
 
 Open your terminal and navigate to the project folder by using the cd command. For example, if your project folder is named "SVG-LOGO-MAKER", you can type: cd SVG-LOGO-MAKER </br>
 In the terminal, type "npm install" and "npm install --save-dev jest" to install dependencies to install Jest as a devDependency respectively. </br>
-In the terminal, type "npm start" </br>
+In the terminal, type "node index.js" </br>
 After invoking the application, you will be prompted with a series of questions. These questions will ask you to choose the shape, shape color, text (up to 3 characters), and text color for your logo. </br>
 Make sure to enter valid color keywords or hexadecimal numbers when prompted for shape and text colors. If an invalid input is provided, you will be prompted to try again.</br>
 Similarly, if your text contains more than 3 characters, you will be prompted to try again and enter a valid text. </br>
