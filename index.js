@@ -6,19 +6,19 @@ const colorKeywords = require("./lib/colorKeywords.js");
 
 // Questions
 const questions = [
-  // ***SHAPE***
+  // SHAPE QUESTIONS - SHAPE
   {
     name: "shape",
-    message: "What is the shape of your logo?",
+    message: "What shape would you like for your logo?",
     type: "list",
     choices: ["Circle", "Square", "Triangle"],
   },
 
-  // ****SHAPE COLOR***
+  // SHAPE COLOR
   // user choose color keyword or hexadecimal for shapeColor
   {
     name: "shapeColorChoice",
-    message: "What is the color of the shape? Choose a color format: ",
+    message: "Choose a color format for the shape of your logo ",
     type: "list",
     choices: ["color keyword", "hexadecimal"],
   },
@@ -26,7 +26,7 @@ const questions = [
   {
     type: "input",
     name: "shapeColor",
-    message: "Enter the shape color keyword",
+    message: "Enter the colour keyword for your shape",
     when: (answers) => {
       if (answers.shapeColorChoice === "color keyword") {
         return true;
@@ -47,7 +47,7 @@ const questions = [
   {
     type: "input",
     name: "shapeColor",
-    message: "Enter the shape hexadecimal number (#CCCCCC)",
+    message: "Enter the shape colour hexadecimal number (#CCCCCC)",
     when: (answers) => {
       if (answers.shapeColorChoice === "hexadecimal") {
         return true;
@@ -63,11 +63,11 @@ const questions = [
     },
   },
 
-  // ***TEXT***
+  // TEXT
   // validate user can only submit 3 characters
   {
     name: "text",
-    message: "What is the text? (three character maximum)",
+    message: "What is the name of your company? (three character maximum)",
     type: "input",
     validate: (answer) => {
       if (answer.length > 3) {
@@ -79,11 +79,11 @@ const questions = [
     },
   },
 
-  // ***TEXT COLOR***
+  // TEXT COLOR
   // user choose color keyword or hexadecimal for textColor
   {
     name: "textColorChoice",
-    message: "What is the color of the text? Choose a color format: ",
+    message: "Choose a color format for the text on your logo ",
     type: "list",
     choices: ["color keyword", "hexadecimal"],
   },
