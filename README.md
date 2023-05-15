@@ -7,9 +7,10 @@ This app is used to generate an SVG logo with a shape of your choice (circle, sq
 - [Application](#Application)
 - [Technologies Used](#TechnologiesUsed)
 - [Installation](#Installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Test](#Test)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
 
 ## Application
 
@@ -30,6 +31,10 @@ Next, clone this project repository to your computer. </br>
 In the command line, use "npm install" to install dependecies. </br>
 Use the command "npm install --save-dev jest" to install Jest as a devDependency. </br>
 
+## Test
+
+After installing Jest, Type "npm test" in the command line to run the tests
+
 ## Usage
 
 Open your terminal and navigate to the project folder by using the cd command. For example, if your project folder is named "SVG-LOGO-MAKER", you can type: cd SVG-LOGO-MAKER </br>
@@ -39,9 +44,6 @@ After invoking the application, you will be prompted with a series of questions.
 Make sure to enter valid color keywords or hexadecimal numbers when prompted for shape and text colors. If an invalid input is provided, you will be prompted to try again.</br>
 Similarly, if your text contains more than 3 characters, you will be prompted to try again and enter a valid text. </br>
 Once you have successfully answered all the prompts with accepted values, your new logo will be generated. The generated logo file will be named 'logo.svg' and will be saved in the 'examples' folder within your project directory. </br>
-
-For the tests:</br>
-In the command line type "
 
 ## Credits
 
